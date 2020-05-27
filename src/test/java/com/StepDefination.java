@@ -11,6 +11,8 @@ public class StepDefination {
 	public void open_chome_browser() throws Throwable {
 		   System.setProperty("webdriver.chrome.driver", "/Users/sanchita/Downloads/chromedriver");
             dr= new ChromeDriver(); 
+            System.out.println("This is new code");
+            System.out.println("This is second line of new code");
 	   
 	}
 
